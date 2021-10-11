@@ -96,19 +96,18 @@ const Home: NextPage = () => {
           }}
           spaceKeyToPlayOrPause={spaceKeyToPlayOrPause}
         />
-        <div style={{ paddingTop: '0.5rem' }}>
-          Enter Text{' '}
-          <input
-            value={title}
-            onChange={(e) => {
-              setTitle(e.target.value);
-            }}
-          />
-        </div>
-
       </div>
 
       <div>
+        <div style={{ paddingTop: '0.5rem' }}>
+            Enter Text{' '}
+            <input
+              value={title}
+              onChange={(e) => {
+                setTitle(e.target.value);
+              }}
+            />
+          </div>
         <div style={{ paddingTop: '0.5rem' }}>
           <div>
             Select Text Color{' '}
